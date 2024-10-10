@@ -6,31 +6,10 @@ var imgWidth = 120; // width of images (unit: px)
 var imgHeight = 170; // height of images (unit: px)
 
 // Link of background music - set 'null' if you dont want to play background music
-// var bgMusicURL = '29.mp4' 
-//var bgMusicControls = true; // Show UI music control
-
-/////////////////////
-// Set the video source dynamically
-var bgMusicURL = '29.mp4';
-var bgMusicControls = true;
-
-var videoElement = document.getElementById('bgVideo');
-
-// Set the video URL dynamically
-videoElement.src = bgMusicURL;
-
-// Enable or disable video controls based on bgMusicControls variable
-if (bgMusicControls) {
-  videoElement.setAttribute('controls', 'controls');
-} else {
-  videoElement.removeAttribute('controls');
-}
-
-// Play the video
-videoElement.play();
+var bgMusicURL = '29.mp4' 
+var bgMusicControls = true; // Show UI music control
 
 
-/////////////////////////
 
 // ===================== start =======================
 // animation start after 1000 miliseconds
