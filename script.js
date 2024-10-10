@@ -6,7 +6,7 @@ var imgWidth = 120; // width of images (unit: px)
 var imgHeight = 170; // height of images (unit: px)
 
 // Link of background music - set 'null' if you dont want to play background music
- var bgMusicURL = 'video/29.mp4' 
+ var bgMusicURL = '29.mp4' 
 var bgMusicControls = true; // Show UI music control
 
 
